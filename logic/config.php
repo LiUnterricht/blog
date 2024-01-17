@@ -1,6 +1,7 @@
 <?php
 
 function getConfig(){
+    echo __DIR__;
     $pf = '.' . DIRECTORY_SEPARATOR . 'parts' . DIRECTORY_SEPARATOR;
     $config = [
         'general' => [

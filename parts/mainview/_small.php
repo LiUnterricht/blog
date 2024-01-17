@@ -1,5 +1,5 @@
 <div class="card">
-    <a href="article.html"><img class="card-img-top" src="assets/img/700x350.jpg" alt="..." /></a>
+    <a href="?page=single"><img class="card-img-top" src="assets/img/700x350.jpg" alt="..." /></a>
     <div class="card-body">
         <div class="small text-muted">11. Januar 2024</div>
         <h2 class="card-title h4">Titel</h2>
