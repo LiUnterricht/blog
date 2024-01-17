@@ -1,7 +1,7 @@
 <?php
-
+$pf = '.' . DIRECTORY_SEPARATOR . 'parts' . DIRECTORY_SEPARATOR;
 function getConfig(){
-    echo __DIR__;
+
     $pf = '.' . DIRECTORY_SEPARATOR . 'parts' . DIRECTORY_SEPARATOR;
     $config = [
         'general' => [
@@ -12,7 +12,12 @@ function getConfig(){
                 'title' => 'Herzlich Willkommen auf meinem Blog',
                 'template' => ''
             ],
+            'single' => [
+                'title' => 'Ein Einzelartikel',
+                'template' => ''
+            ],
         ],
     ];
     return $config;
 }
+echo $pf;
