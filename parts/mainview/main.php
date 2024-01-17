@@ -1,3 +1,2 @@
 <?php
-
-include 'fullmain.php';
+include 'view.php';
