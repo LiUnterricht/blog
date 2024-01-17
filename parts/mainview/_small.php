@@ -4,6 +4,6 @@
         <div class="small text-muted">11. Januar 2024</div>
         <h2 class="card-title h4">Titel</h2>
         <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis aliquid atque, nulla.</p>
-        <a class="btn btn-primary" href="article.html">Weiter →</a>
+        <a class="btn btn-primary" href="?page=single">Weiter →</a>
     </div>
 </div>
