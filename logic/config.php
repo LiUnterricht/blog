@@ -1,23 +1,24 @@
 <?php
-$pf = '.' . DIRECTORY_SEPARATOR . 'parts' . DIRECTORY_SEPARATOR;
-function getConfig(){
 
-    $pf = '.' . DIRECTORY_SEPARATOR . 'parts' . DIRECTORY_SEPARATOR;
-    $config = [
+function getConfig(){
+    //$pf = '.' . DIRECTORY_SEPARATOR . 'parts' . DIRECTORY_SEPARATOR;
+    $pf = dirname(__DIR__) . DIRECTORY_SEPARATOR . 'parts' . DIRECTORY_SEPARATOR;
+    $maintemplate = $pf . 'mainview' . DIRECTORY_SEPARATOR . 'main.php';
+    $singletemplate = $pf . 'singleview' . DIRECTORY_SEPARATOR . 'main.php';
+    return  [
         'general' => [
             'templatePath' => $pf
         ],
         'pages' => [
             'main' => [
                 'title' => 'Herzlich Willkommen auf meinem Blog',
-                'template' => ''
+                'template' => $maintemplate,
             ],
             'single' => [
                 'title' => 'Ein Einzelartikel',
-                'template' => ''
+                'template' => $singletemplate,
             ],
         ],
     ];
-    return $config;
 }
-echo $pf;
+
